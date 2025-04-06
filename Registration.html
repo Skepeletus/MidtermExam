@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 20px;
+      background-color: red;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      max-width: 600px; 
+      margin: auto;
+      background-color: white;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    marquee {
+      font-size: 20px; 
+      text-shadow: 0px 0px 7px black, 0px 0px 10px red;
+      margin-bottom: 10px;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    input[type="file"],
+    input[type="date"],
+    input[type="color"],
+    input[type="range"] {
+      margin: 5px 0;
+      padding: 5px;
+      border-radius: 5px;
+      font-size: 13px; 
+      border: 1px solid #ccc;
+      width: calc(100% - 12px); 
+    }
+
+    label {
+      font-weight: bold;
+      font-size: 14px;
+      display: block;
+      margin-top: 10px;
+    }
+
+    .form-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    .checkbox-group {
+      font-size: 12px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: center;
+    }
+
+    nav ul {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      overflow: hidden;
+      justify-content: center;
+    }
+
+    nav li a {
+      display: block;
+      text-decoration: none;
+      color: white;
+      background-color: #061f92;
+      transition: 0.3s;
+      border-radius: 20px; 
+      padding: 8px 15px;
+      font-size: 12px;
+    }
+
+    nav li a:hover {
+      background-color: white;
+      color: black;
+      border: 1px solid blue;
+      font-size: 12px; 
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <marquee>REGISTRATION FORM</marquee>
+    <p style="background-color: blue; height: 2px;"></p>
+
+    <label>Full Name</label>
+    <div class="form-group">
+      <input type="text" placeholder="Lastname">
+      <input type="text" placeholder="Firstname">
+      <input type="text" placeholder="MI">
+    </div>
+
+    <label>Address</label>
+    <div class="form-group">
+      <input type="text" placeholder="Address">
+      <input type="text" placeholder="Cell Number">
+    </div>
+
+    <label>Date of Birth</label>
+    <input type="date">
+
+    <label>Gender</label>
+    <div class="form-group">
+      <input type="radio" id="male" name="gender" value="Male">
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="Female">
+      <label for="female">Female</label>
+    </div>
+
+    <div class="form-group">
+      <input type="text" placeholder="Age" style="width: 60px;">
+      <input type="email" placeholder="Email Address">
+      <input type="color" style="height: 30px; width: 70px;">
+    </div>
+
+    <label>Level</label>
+    <input type="range" style="width: 100%;">
+
+    <label>Hobbies</label>
+    <div class="checkbox-group">
+      <label><input type="checkbox"> Music</label>
+      <label><input type="checkbox"> Movies</label>
+      <label><input type="checkbox"> Sports</label>
+      <label><input type="checkbox"> Travel</label>
+      <label><input type="checkbox"> Others</label>
+    </div>
+
+    <label>Upload Photo</label>
+    <input type="file">
+
+    <div class="form-group">
+      <input type="text" placeholder="Username">
+      <input type="password" placeholder="Password">
+    </div>
+
+    <div class="center">
+      <input type="checkbox">
+      <span style="font-size: 12px;">I hereby declare that the above information provided is true and correct</span>
+    </div>
+
+   
+
+    <nav>
+      <ul>
+        <li><a href="LogIn.html">Log-In</a></li>
+        <li><a href="home.html">Go Back</a></li>
+      </ul>
+    </nav>
+  </div>
+</body>
+</html>

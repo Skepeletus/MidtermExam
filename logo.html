@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Programming Hub</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f7fa;
+    }
+
+    .head {
+      color: white;
+      background-color: #2c3e50;
+      font-size: 40px;
+      text-align: center;
+      padding: 20px;
+    }
+
+    nav ul {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      background-color: #34495e;
+    }
+
+    nav li a {
+      display: block;
+      padding: 15px 40px;
+      text-decoration: none;
+      color: white;
+      font-size: 16px;
+      transition: 0.3s;
+      border-radius: 5px;
+    }
+
+    nav li a:hover {
+      background-color: #1abc9c;
+      color: white;
+      font-size: 18px;
+    }
+
+    h1 {
+      color: #2c3e50;
+      font-size: 24px;
+      padding-top: 20px;
+      margin: 20px 0;
+      text-align:center;
+    }
+
+    .image {
+      border: solid 2px #ecf0f1;
+      height: 233px;
+      width: 233px;
+      background-color: #d3d3d3;
+      margin-top: 5px;
+      margin-left: 4px;
+      border-radius: 8px;
+      transition: transform 0.7s ease;
+    }
+
+    .image:hover {
+      transform: scale(1.2);
+    }
+
+    .main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+
+    .footer {
+      background-color: #2c3e50;
+      text-align: center;
+      font-size: 16px;
+      color: white;
+      margin-top: 30px;
+      padding: 15px;
+    }
+
+    .main div {
+      margin: 10px;
+      text-align: center;
+    }
+
+    .caption {
+      font-size: 14px;
+      color: #34495e;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 class="head">Programming</h1>
+
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+    </ul>
+  </nav>
+
+  <h1>Popular Programming Languages</h1>
+  <div class="main">
+    <div>
+      <img src="pythonlogo.png" class="image" alt="Python Logo">
+      <div class="caption">Python - Simple yet powerful</div>
+    </div>
+    <div>
+      <img src="javascriptlogo.png" class="image" alt="JavaScript Logo">
+      <div class="caption">JavaScript - Web interactivity king</div>
+    </div>
+    <div>
+      <img src="javalogo.jpg" class="image" alt="Java Logo">
+      <div class="caption">Java - Robust and portable</div>
+    </div>
+  </div>
+
+  <h1>Web Development Tools</h1>
+  <div class="main">
+    <div>
+      <img src="htmllogo.png" class="image" alt="HTML Logo">
+      <div class="caption">HTML5 - Structure of the web</div>
+    </div>
+    <div>
+      <img src="csslogo.svg" class="image" alt="CSS Logo">
+      <div class="caption">CSS3 - Design with style</div>
+    </div>
+    <div>
+      <img src="reactlogo.png" class="image" alt="React Logo">
+      <div class="caption">React - Build dynamic UIs</div>
+    </div>
+  </div>
+
+  <h1>Development Platforms</h1>
+  <div class="main">
+    <div>
+      <img src="githublogo.png" class="image" alt="GitHub Logo">
+      <div class="caption">GitHub - Code collaboration made easy</div>
+    </div>
+    <div>
+      <img src="vscodelogo.jpg" class="image" alt="VS Code Logo">
+      <div class="caption">VS Code - Developer’s favorite editor</div>
+    </div>
+    <div>
+      <img src="dockerlogo.png" class="image" alt="Docker Logo">
+      <div class="caption">Docker - Containerize everything</div>
+    </div>
+  </div>
+
+  <div class="footer">&copy; 2025 CodeCraft | Created by Arvee Reñon</div>
+
+</body>
+</html>

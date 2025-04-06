@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+    <style>
+        .image{
+            height: 350px;
+            width: 350px;
+            margin:auto;
+            display: block;           
+        }
+        h2{
+            color: aliceblue;
+        }
+
+        p{
+            color:aliceblue;
+            font-size: 20px;
+        }
+        h1{
+            color:blue;
+            font-size: 50px;
+            margin-top: 10px;
+        }
+       section {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+      }
+
+    .column, .column1 {
+      flex: 1;
+      min-width: 300px;
+      margin: 15px;
+      padding: 20px;
+      backdrop-filter: blur(10px);
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      border-radius: 10px;
+    }
+        body {
+    background-image: url('programmingbg.jpg');
+    background-size: cover;  
+    background-position: center;  
+    background-repeat: no-repeat;  
+    height: 100vh;  
+}
+
+img{
+    height: 50px;
+    width: 50px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+.main{
+  display: flex;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+li a{
+    color:white;
+    text-decoration: none;
+    margin-left: 50px;
+
+    transition-duration: 0.6s;
+}
+
+li a:hover{
+    font-size: 30px;
+}
+
+input{
+    background-color: black;
+    margin-top: 50px;
+    margin-left: 150px;
+    border: solid 2px orange;
+    border-radius: 10px;
+    text-align: center;
+    height: 40px;
+}
+.foot{
+        float: right;
+        position: relative;
+        right: 5%;
+        margin-top: auto;
+        margin-left:auto;
+        
+}
+
+    </style>
+</head>
+<body>
+    <div class="main">
+    <img src="CRTLOGO.jpg">
+
+    <ul>
+        <li><a href="front.html" style="margin-left: 150px;"><b>Go back</b></a></li>
+        <li><a href="logo.html"><b>Logo</b></a></li>
+        <li><a href="ArveeExam.html"><b>Creator</b></a></li>
+        <li><a href="Registration.html"><b>Registration</b></a></li>
+        <li><a href="LogIn.html"><b>Log-In</b></a></li>
+    </ul>
+
+</div>
+
+<section>
+    <div class="column1">
+      <h1>Programming Language</h1>
+      <h2>What is Programming Lanuage?</h2>
+      <p>A programming language is a set of instructions written by a programmer to deliver instructions to the computer to perform and accomplish a task.</p>
+    </div>
+
+    <div class="column">
+      <div><img src="coding.gif" class="image"></div>      
+    </div>
+  </section>
+
+  <footer>  
+    <p class="foot">
+        © 2025 Arvee pogi. All right reserved.
+    </p>     
+</footer>
+
+    
+</body>
+</html>
